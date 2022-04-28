@@ -1,0 +1,20 @@
+﻿Se genera el proyecto, con .Net Core 6 no se ve ninguna estructura conocida, por lo tanto en Windows se utilizo .Net Core 5 
+
+Se instala EFCore EFCoreMySQL EFCoreTools
+
+Se generan las clases que se desean guardar en la BD
+
+Se genera la clase del DBContext
+
+En Visual Studio Se genera la migración para la bd con el siguiente comando:
+
+add-migration CrearBD
+
+En Visual Studio se ejecuta la migración:
+
+update-database –verbose
+
+
+
+
+
